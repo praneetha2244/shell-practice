@@ -6,7 +6,7 @@ START_TIME=$(date +%s)
 
 echo "Timestamp executed: $DATE"
 
-sleep 10 &
+sleep 10
 
 END_TIME=$(date +%s)
 

@@ -3,7 +3,7 @@
 #everything in shell is considered as string
 NUMBER1=100
 NUMBER2=200
-
-SUM=$(($NUMBER1+$NUMBER2))
+Name=Devops
+SUM=$(($NUMBER1+$NUMBER2+$NAME))
 
 echo "SUM is: ${SUM}"

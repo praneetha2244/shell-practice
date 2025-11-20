@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 USERID=$(id -u)
 
@@ -24,5 +24,5 @@ VALIDATE $? "MYSQL"
 dnf install nginx -y
 VALIDATE $? "NGINX"
 
-dnf install mongodb-mongosh -y
-VALIDATE $? :MONGOSH"
+dnf install python3 -y
+VALIDATE $? :python3"

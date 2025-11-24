@@ -1,7 +1,6 @@
 #!/bin/bash
 
-for i {1..20}
+for i in {1..20}
 do
-    echo_$i
+    echo $i
 done
-    

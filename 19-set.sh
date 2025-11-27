@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "Hello.."
 echo "Before error.."
